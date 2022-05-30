@@ -1,10 +1,10 @@
 # Regex Tips
-## Change extension
+## Change extension,
 ```
 find . -name '*.txt' | sed 's/.*/mv & &/' | sed 's/\.txt$/.tec/'
 ```
 *****************************************************************
-## Random number generator
+## Random number generator,
 ```
 echo $(( $RANDOM % 100))
 ```
